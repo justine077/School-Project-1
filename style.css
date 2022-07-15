@@ -17,3 +17,11 @@ body {
 .cantainer-fluid {
 
 }
+.main {
+    background: url(/image/pexels-max-fischer-5212345.jpg);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
