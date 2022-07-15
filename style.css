@@ -9,19 +9,53 @@ body {
     background: linear-gradient(to right top, rgb(160, 230, 237) , rgb(81, 181, 238));
 }
 
-
 .navbar ul li a{
     color: #fff;
     font-size: 1.3rem;
 }
-.cantainer-fluid {
+.h11 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
+
+.hh1 {
+    background: #fff;
+    font-size: 4rem;
+    background-size: cover;
+    background-position: center;
+    background:linear-gradient(to right bottom,rgba)255.255.255,0.7, rgba (255,255,255,0.3);
 }
-.main {
-    background: url(/image/pexels-max-fischer-5212345.jpg);
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.hh2 {
+    font-size: 3rem;
 }
+
+.h33h {
+    ont-size: 3rem;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;  
+}
+/* footer section starts */
+.hhh3 {
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-1 {
+   
+    max-width: 100%;
+}
+
+.social-icon a {
+    color:black;
+    margin-right: 2rem;
+}
+.social-icon a:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+/* footer section ends */

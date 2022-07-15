@@ -10,15 +10,16 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <!-- header starts -->
-    <header class="cantainer-fluid1 my-2">
-      <nav class="navbar navbar-expand-lg my-4 bg-primary">
+    <header class="cantainer-fluid1 my-0 sticky-top">
+      <nav class="navbar navbar-expand-lg my-0 bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold fs-3 text-warning" href="#">LATEST</a>
+          <a class="navbar-brand fw-bold fs-3 text-warning" href="#">RTU</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -38,26 +39,21 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link" href="#About">About</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  About Us
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Mission</a></li>
-                  <li><a class="dropdown-item" href="#">Vision</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Facilities</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#Admission">Admission</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#carouselExampleCaptions1">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gmap">Find Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gmap">Contact Us</a>
+              </li>
+            
             </ul>
             <form class="d-flex" role="search">
               <input
@@ -75,23 +71,15 @@
       </nav>
     </header>
     <!-- header ends -->
-    <!-- School Name starts -->
-    <section class="main">
-      <h2>Welcome to Recto University</h2>
-    </section>
-    <!-- School Name ends -->
-
-    <!-- Missin Vision starts Sir Nixon -->
-
-    <!-- Missin Vision ends Sir Nixon -->
-
+    <h1 class="hh1 text-center fw-bold col-sm-12 mb-3 mt-0 text-primary ">WELCOME TO RECTO UNIVERSITY</h1>
     <!-- carousel starts -->
-
     <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
+    
+      id="carouselExampleIndicators my-5"
+      class="carousel slide my-5"
       data-bs-ride="true"
     >
+
       <div class="carousel-indicators">
         <button
           type="button"
@@ -113,11 +101,17 @@
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="image/pexels-max-fischer-5212345.jpg"
+            src="https://www.houstonisd.org/cms/lib2/TX01001591/Centricity/Domain/4/2022_StudentEnroll_NOW%20ENROLLING_WEB%20BANNER.png"
             class="d-block w-100"
             height="400px"
             alt="..."
@@ -125,14 +119,17 @@
         </div>
         <div class="carousel-item">
           <img
-            src="image/pexels-johny-rebel-the-explorer-panda-357271.jpg"
+            src="https://www.houstonisd.org/cms/lib2/TX01001591/Centricity/Domain/4/Recruitment%20carousel.png"
             class="d-block w-100"
             height="400"
             alt="..."
           />
         </div>
         <div class="carousel-item">
-          <img src="image" class="d-block w-100" alt="..." />
+          <img src="https://www.houstonisd.org/cms/lib2/TX01001591/Centricity/Domain/4/Summer-Guide-_Carousel-1920x630.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.houstonisd.org/cms/lib2/TX01001591/Centricity/Domain/4/boardworkshop-strategicplan.png" class="d-block w-100" alt="..." />
         </div>
       </div>
       <button
@@ -156,9 +153,254 @@
     </div>
     <!-- carousel ends -->
 
-    <!-- Admission starts sir Jed-->
+     <!-- Missin Vision starts Sir Nixon -->
+     <section class="M-V mb-5" id="About">
+        <h2 style="text-align: center;" class="fw-bold">ABOUT US</h2>
+        <article style="
+                        width: 500px;
+                        background-color: white;
+                        border-radius: 25px;
+                        margin: auto;
+                        padding: 10px"
+                        class="Mission">
+          <h3 style="text-align: center;
+                     border-bottom: 2px double blue;">MISSION</h3>
+          <p style="text-indent: 15px; text-align: center;">The Premier University in --Location-- recognized for excellence in the development of globally competitive and morally upright individuals.</p>
+        </article>
+  
+        <article style="
+                        width: 500px;
+                        background-color: white;
+                        border-radius: 25px;
+                        margin: auto;
+                        padding: 10px;
+                        margin-top: 10px;" 
+                        class="Vision">
+          <h3 style="text-align: center;border-bottom: 2px double blue;">VISION</h3>
+          <p style="text-indent: 15px; text-align: center;">--School name-- shall provide excellent, equitable and relevant educational opportunities in the arts, sciences, and technology through quality instruction and responsive research and development activities. It shall produce professional skilled and morally upright individuals for global competitiveness.</p>
+        </article>
+      </section>
+      <!-- Missin Vision ends Sir Nixon -->
 
-    <!-- Admission ends sir Jed-->
+    <!-- Admission Form -->
+    <section class="h-100 " id="Admission">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col">
+            <div class="card card-registration my-4">
+              <div class="row g-0">
+                <div class="col-xl-6 d-none d-xl-block">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"
+                    alt="Sample photo" class="img-fluid"
+                    style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                </div>
+                <div class="col-xl-6">
+                  <div class="card-body p-md-5 text-black">
+                    <h3 class="mb-5 text-uppercase">Student registration form</h3>
+    
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input type="text" id="form3Example1m" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Example1m">First name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Example1n">Last name</label>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input type="text" id="form3Example1m1" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Example1m1">Mother's name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input type="text" id="form3Example1n1" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Example1n1">Father's name</label>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                      <label class="form-label" for="form3Example8">Address</label>
+                    </div>
+    
+                    <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+    
+                      <h6 class="mb-0 me-4">Gender: </h6>
+    
+                      <div class="form-check form-check-inline mb-0 me-4">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                          value="option1" />
+                        <label class="form-check-label" for="femaleGender">Female</label>
+                      </div>
+    
+                      <div class="form-check form-check-inline mb-0 me-4">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                          value="option2" />
+                        <label class="form-check-label" for="maleGender">Male</label>
+                      </div>
+    
+                      <div class="form-check form-check-inline mb-0">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                          value="option3" />
+                        <label class="form-check-label" for="otherGender">Other</label>
+                      </div>
+    
+                    </div>
+    
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+    
+                        <select class="select">
+                          <option value="1">City</option>
+                          <option value="2">Caloocan</option>
+                          <option value="3">Las Piñas</option>
+                          <option value="4">Makati</option>
+                          <option value="5">Malabon</option>
+                          <option value="6">Mandaluyong</option>
+                          <option value="7">Manila</option>
+                          <option value="8">Marikina</option>
+                          <option value="9">Muntinlupa</option>
+                          <option value="10">Navotas</option>
+                          <option value="11">Parañaque</option>
+                          <option value="12">Pasay</option>
+                          <option value="13">Pasig</option>
+                          <option value="14">Quezon City</option>
+                          <option value="15">San Juan</option>
+                          <option value="16">Taguig</option>
+                          <option value="17">Valenzuela</option>
+                        </select>
+    
+                      </div>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="text" id="form3Example99" class="form-control form-control-lg" />
+                      <label class="form-label" for="form3Example99">Course</label>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="text" id="form3Example97" class="form-control form-control-lg" />
+                      <label class="form-label" for="form3Example97">Email ID</label>
+                    </div>
+    
+                    <div class="d-flex justify-content-end pt-3">
+                      <button type="button" class="btn btn-light btn-lg">Reset all</button>
+                      <button type="button" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Admission Form ends -->
+
+    <!-- Facilites starts -->
+    <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/image/Temp-1000x600 (1).jpg" class="d-block w-100" height="400" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>COURT</h2>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/image/Temp-1000x600 (2).jpg" class="d-block w-100" height="400" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2> LIBRARY</h2>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/Temp-1000x600 (4).jpg" class="d-block w-100"height="400" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>COMPUTER LAB</h2>
+              
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- Facilites ends -->
+
+    <!-- gmap starts -->
+    <div class="container my-5" id="gmap">
+        <h2 class="hh2 text-center fw-bold" >FIND US</h2>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="gmap p-2 bd-highlight mt-0">
+                    <div class="gmap col-lg">
+                      <div
+                        id="map-container-google-1"
+                        class="z-depth-1-half map-container"
+                        style="height: 500px"
+                      >
+                        <iframe
+                          class="w-100 h-75 mt-1"
+                          clas
+                          src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed "
+                          frameborder="0"
+                          style="border: 0"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    <!-- gmap ends -->
+    <!-- contact us starts -->
+    <div class="contaner text-center ">
+        <h3 class="h11">CONTACT US</h3>
+        <p class="fs-5 fw-bold">Email:Rtu0011@gmail.com</p>
+        <p class="fs-5 fw-bold">Phone Number:09129032921</p>
+    </div>
+    <!-- contact us ends -->
+    <!-- footer starts -->
+    <div class="footer-1 container text-white ">
+        <div class="footer row">
+          <div class="col-lg">
+            <h3 class="hhh3 text-center my-4">Follow <span>Us</span></h3>
+            <div class=" social-icon text-center mb-3 fs-2 ">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+              <a href="#" class="fab fa-pinterest"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer section ends -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
