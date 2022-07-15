@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    background: linear-gradient(to right top, rgb(160, 230, 237) , rgb(81, 181, 238));
+}
+
+
+.navbar ul li a{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.cantainer-fluid {
+
+}
